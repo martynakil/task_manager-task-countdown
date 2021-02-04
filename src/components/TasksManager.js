@@ -76,13 +76,7 @@ class TasksManager extends React.Component {
       };
 
       
-    resetInputs() {
-        this.setState(state => {
-            return {
-              newTask: ''
-            }
-        });
-    }
+   
 
     createNewTask() {
         const newTask = {
